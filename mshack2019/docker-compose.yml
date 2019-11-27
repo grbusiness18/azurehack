@@ -1,0 +1,11 @@
+web:
+  build: .
+  command: python -u app.py
+  ports:
+    - "5001:5001"
+  links:
+    - db
+db:
+  image: mongo:4.0.3
+  expose:
+    - 27017

@@ -1,0 +1,6 @@
+flask-restplus
+flask-cors
+werkzeug
+blinker==1.4
+azure-cognitiveservices-vision-computervision
+pillow
